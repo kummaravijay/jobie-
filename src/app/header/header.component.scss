@@ -1,0 +1,131 @@
+.headerstricky-bar{
+    animation: fadeInDown .7s ease-in-out 0s 1 normal none running;
+    box-shadow: 0 8px 20px 0 rgb(0 0 0 / 5%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    transition: all .3s ease 0s;
+    border-bottom: 1px solid #e0e6f6;
+    background: #fff;
+}
+.container{
+    width: 100%;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header-logo {
+   a img{
+    width: 150px;
+    height: 50px;
+    padding-bottom: 5px;
+   }
+}
+.header-nav{
+    flex: 1;
+    text-align: center;
+  
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+   
+}
+.dropbtn{
+    background-color: #fff;
+    color: #6b797c;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover {
+    color: #1f86ef;
+  
+}
+.dropdown-content1{
+    display: none;
+    min-width: 180px;
+    position: absolute;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #ececec;
+    box-shadow: 0 10px 20px -5px rgb(10 42 105 / 6%);
+    background-color: #fff;
+    margin-top: 8px;
+    border-radius: 15px;
+}
+.dropdown-content1 a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content1 a:hover {
+    background-color: #f1f1f1;
+    color: #1f86ef;
+}
+.dropdown:hover .dropdown-content1 {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    min-width: 180px;
+    position: absolute;
+    z-index: 1;
+    height: 195px;
+    width: 100px;
+    border: 1px solid #ececec;
+    box-shadow: 0 10px 20px -5px rgb(10 42 105 / 6%);
+    background-color: #fff;
+    margin-top: 8px;
+    border-radius: 15px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #1f86ef;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.btn-1 {
+    margin-right: 150px;
+}
+
+.btn-2 {
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: white;
+    font-size: 17px;
+}
+
+.btn-2 i {
+    padding: 10px;
+}
+
+.btn-3 {
+    height: 40px;
+    width: 115px;
+    font-size: 17px;
+    background-color: #1f86ef;
+    border: 1px #1f86ef;
+    color: #fff;
+}
+
+.btn-3 i {
+    padding-right: 10px;
+}
