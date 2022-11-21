@@ -1,0 +1,266 @@
+
+.main {
+    display: block;
+    clear: both;
+}
+.pt-100 {
+    padding-top: 200px !important;  
+}
+.login-register-cover {
+    border-bottom: 1px solid #e0e6f6;
+    position: relative;
+    width: 100%;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.text-center {
+    text-align: center !important;
+}
+
+.text-brand-2 {
+    color: #3c65f5;
+}
+
+.font-sm {
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-style: normal;
+}
+
+h2 {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #05264e;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+
+.font-sm {
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-style: normal;
+}
+
+.social-login {
+    height: 53px;
+    border-radius: 4px;
+    border: 1px solid #e0e6f6;
+    width: 100%;
+    line-height: 53px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+
+    .button {
+        cursor: pointer;
+    }
+
+}
+
+.btn {
+    font-family: Plus Jakarta Sans, sans-serif;
+    border-radius: 8px;
+    padding: 13px 25px;
+    font-size: 14px;
+    line-height: 1;
+    transition: .2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+}
+
+.social-login img {
+    margin-right: 4px;
+}
+
+strong {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.divider-text-center {
+    position: relative;
+    text-align: center;
+}
+
+.divider-text-center:after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    background-color: #e0e6f6;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+}
+
+.divider-text-center span {
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 15px;
+    z-index: 2;
+    position: relative;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+}
+
+.login-register input {
+    height: 53px;
+    line-height: 53px;
+    font-size: 14px;
+}
+
+.login-register input {
+    height: 53px;
+    line-height: 53px;
+    font-size: 14px;
+}
+
+.form-group input {
+    background: #fff;
+    border: 1px solid #e0e6f6;
+    box-shadow: none;
+    padding-left: 20px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.form-control {
+    padding: 11px 15px 13px;
+    color: #a0abb8;
+}
+
+.cb-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    line-height: 21px;
+    user-select: none;
+}
+
+.cb-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.text-small {
+    font-size: 14px;
+    font-weight: 500;
+    small {
+        line-height: 22px;
+        color: #4f5e64;
+    }
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: #fff;
+    border: 1px solid #e0e6f7;
+    border-radius: 7px;
+}
+.text-muted {
+    color: #6c757d!important;
+    text-decoration: none;
+}
+.form-group {
+    margin-bottom: 1rem;
+    position: relative;
+}
+.btn-brand-1 {
+    padding: 13px 25px;
+    background: #05264e;
+    color: #fff;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+.btn {
+    font-family: Plus Jakarta Sans,sans-serif;
+    border-radius: 8px;
+    padding: 18px 25px;
+    font-size: 14px;
+    line-height: 1;
+    transition: .2s;
+}
+.btn-brand-1:hover {
+    background-color: #3c65f5;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.03);
+}
+a{
+    text-decoration: none;
+}
+.img-4 {
+    position: absolute;
+    right: 8%;
+    top: 20%;
+    width: unset;
+}
+.shape-1 {
+    animation: hero-thumb-animation 2s linear infinite alternate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: hero-thumb-animation;
+}
+@keyframes hero-thumb-animation{
+    0%   { top:0px;}
+    25%  {top:0px;}
+    50%  {top:100px;}
+    75%  { top:100px;}
+    100% { top:0px;}
+}
+.img-3{
+    img{
+        height: 300px;
+        width: 800px;
+    }
+}
