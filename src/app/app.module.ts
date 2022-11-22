@@ -17,6 +17,8 @@ import { SavedjobsComponent } from './savedjobs/savedjobs.component';
 import {MatCardModule} from '@angular/material/card';
 
 
+import { ReactiveFormsModule } from '@angular/forms'
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,8 +37,9 @@ import {MatCardModule} from '@angular/material/card';
     BrowserAnimationsModule,
     MatIconModule,
     MatButtonModule,
-    MatCardModule
-
+    MatCardModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
