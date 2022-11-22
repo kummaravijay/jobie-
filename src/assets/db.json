@@ -9,12 +9,28 @@
       "id": 1
     },
     {
-      "fname": "",
-      "email": "",
-      "uname": "",
-      "password": "",
-      "repassword": "",
+      "fname": "vijay",
+      "email": "vijay@gmail.com",
+      "uname": "kumar",
+      "password": "vijay",
+      "repassword": "vijay",
       "id": 2
+    },
+    {
+      "fname": "vijay",
+      "email": "kumar@gmail.com",
+      "uname": "vijju",
+      "password": "vijay",
+      "repassword": "vijay",
+      "id": 3
+    },
+    {
+      "fname": "vijay",
+      "email": "vijay@gmail.com",
+      "uname": "kumar",
+      "password": "vijay",
+      "repassword": "vijay",
+      "id": 4
     }
   ]
 }

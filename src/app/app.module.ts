@@ -15,8 +15,6 @@ import { MyprofileComponent } from './myprofile/myprofile.component';
 import { MyjobComponent } from './myjob/myjob.component';
 import { SavedjobsComponent } from './savedjobs/savedjobs.component';
 import {MatCardModule} from '@angular/material/card';
-
-
 import { ReactiveFormsModule } from '@angular/forms'
 import { HttpClientModule } from '@angular/common/http';
 @NgModule({

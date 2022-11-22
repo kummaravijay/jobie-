@@ -16,25 +16,26 @@ export class RegisterComponent implements OnInit {
   ngOnInit(): void {
     this.project = this.fb.group({
       fname:["",Validators.required],
-      email:["",Validators.required],
+      email:["",Validators.required,],
       uname:["",Validators.required],
       password:["",Validators.required],
       repassword:["",Validators.required],
     })
   }
-//  matchpassword(Formgroup:FormGroup) {
-//  return Formgroup.controls['password'].value && Formgroup.controls['password'].value===Formgroup.controls['repassword'].value?Formgroup.controls['cpassword'].setErrors(null):Formgroup.controls['cpassword'].setErrors({'misMatch':true})
-//   }
    submit(){
-    this.http.post(`${environment.baseUrl}project`,this.project.value)
-    .subscribe(
-      data=>{
-        console.log(data);
-        this.project.reset();
-      },err=>{
-        console.log(err);
-      }
-    )
+    if(this.project.valid){
+      this.http.post(`${environment.baseUrl}project`,this.project.value)
+      .subscribe(
+        data=>{
+          console.log(data);
+          this.project.reset();
+        },err=>{
+          console.log(err);
+        }
+      )
+    }else{
+      alert('this is not found');
+    }
   }
 
 
