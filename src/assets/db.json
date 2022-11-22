@@ -1,0 +1,20 @@
+{
+  "project": [
+    {
+      "fname": "R.seshu",
+      "email": "seshu123@gmail.com",
+      "uname": "seshu",
+      "password": "Seshu@123",
+      "repassword": "Seshu@123",
+      "id": 1
+    },
+    {
+      "fname": "",
+      "email": "",
+      "uname": "",
+      "password": "",
+      "repassword": "",
+      "id": 2
+    }
+  ]
+}
