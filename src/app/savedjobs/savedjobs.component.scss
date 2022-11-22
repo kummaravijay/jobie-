@@ -1,0 +1,137 @@
+.container{
+    width: 100%;
+    margin-left: 202px;
+    margin-top: 34px;
+    
+}
+.myjob h1{
+    color: #05264e;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 34px;
+}
+.flex4{
+    border: 1px solid lightgrey;
+    width: 339px;
+    margin-top:24px;
+    padding-left: 16px;
+    padding-top: 17px;
+    height:364px;
+    border-radius: 5px;
+    margin-left: 37px;
+    background-color: #eff3fc;
+}
+.flash{
+    margin-left: 189px;
+    margin-top: -105px;
+}
+.ln{
+    display: flex;
+}
+.new{
+    margin-left: 10px;
+    margin-top: -9px;
+}
+#newyork{
+    position: relative;
+    bottom: 12px;
+    right: 1px;
+    font-size: 12px;
+    color: #a0abb8;
+}
+#uiux{
+    
+    color: #05264e;
+    font-size: 16px;
+    font-weight: 600;
+}
+.lin{
+    font-size: 18px;
+    line-height: 26px;
+    color: #05264e;
+    font-weight: 700;
+    display: block;
+    margin-left: 20px;
+    
+
+}
+.place{
+
+    position: relative;
+    bottom: 10px;
+    right: -15px;
+    font-size: 12px;
+    color: #a0abb8;
+}
+.ln img{
+    width: 64px;
+    height: 55px;
+}
+.fulltime{
+    display: flex;
+    margin-left: 20px;
+}
+.card1{
+    
+    font-size: 1px;
+    border: none;
+    color: #a0abb8;
+    margin-left: -22px;
+}
+.card{
+    
+    font-size: 1px;
+    border: none;
+    color: #a0abb8;
+    margin-left: 27px;
+}
+.time{
+    font-size: 12px;
+    color: #a0abb8;
+    margin-top: -2px;
+}
+.lorem{
+
+    width: 308px;
+    color: #4f5e64;
+    font-size: 17px;
+}
+.afp{
+    display: flex;
+    
+}
+.afp p{
+    margin-left: 17px;
+    font-size: 14px;
+    background-color: #b4c0e0;
+}
+#rupees{
+    color: #3c65f5;
+    font-family: Plus Jakarta Sans,sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 20px;
+}
+#hours{
+    font-family: Plus Jakarta Sans,sans-serif;
+    
+    font-size: 20px;
+    color: #6c757d
+}
+.hours1 button{
+    margin-left: 195px;
+    margin-top: 5px;
+    width: 123px;
+    height: 42px;
+    background-color: #e0e6f7;
+    color: #3c65f5;
+}
+.hours1{
+    margin-top: 20px;
+    margin-left: -23px;
+}
+.hours1 button:hover{
+    transition: .2s;
+    background-color: #3c65f5;
+    color: #e0e6f7;
+}
