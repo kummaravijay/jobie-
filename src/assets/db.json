@@ -15,6 +15,46 @@
       "password": "",
       "repassword": "",
       "id": 2
+    },
+    {
+      "fname": "R.seshu",
+      "email": "ddzf",
+      "uname": "dssaffsd",
+      "password": "sadsdff",
+      "repassword": "ADSAFSAF",
+      "id": 3
+    },
+    {
+      "fname": "",
+      "email": "",
+      "uname": "",
+      "password": "",
+      "repassword": "",
+      "id": 4
+    },
+    {
+      "fname": "R.seshu",
+      "email": "seshu123@gmail.com",
+      "uname": "gfd g,mdg",
+      "password": "123456",
+      "repassword": "654321",
+      "id": 5
+    },
+    {
+      "fname": "R.seshu",
+      "email": "seshu123@gmail.com",
+      "uname": "seshu",
+      "password": "123456",
+      "repassword": "654321",
+      "id": 6
+    },
+    {
+      "fname": "R.seshu",
+      "email": "seshu123@gmail.com",
+      "uname": "gfd g,mdg",
+      "password": "sefsergrdsf",
+      "repassword": "sgfrdhtrt",
+      "id": 7
     }
   ]
 }
