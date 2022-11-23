@@ -23,7 +23,7 @@ export class RegisterComponent implements OnInit {
     },{validator:this.matchpassword})
   }
  matchpassword(Formgroup:FormGroup) {
- return Formgroup.controls['password'].value && Formgroup.controls['password'].value===Formgroup.controls['repassword'].value?Formgroup.controls['cpassword'].setErrors(null):Formgroup.controls['cpassword'].setErrors({'misMatch':true})
+ return Formgroup.controls['password'].value && Formgroup.controls['password'].value===Formgroup.controls['repassword'].value?Formgroup.controls['repassword'].setErrors(null):Formgroup.controls['repassword'].setErrors({'misMatch':true})
   }
    submit(){
     if(this.project.valid){
