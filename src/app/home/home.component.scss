@@ -880,23 +880,4 @@ border-radius: 15px;
             transform: translateY(-2px);
             transition: .2s;
         }
-.shape-1{
-    animation: sari 2.5s linear 0s infinite alternate none;
-}
-@keyframes sari{
-    0% {top: 0px;}
-    25%{top: 0px;}
-    50%{top: 70px;}
-    75%{top: 70px;}
-    100%{top: 0px;}
-}
-.shape-2{
-    animation: saritha 2.5s linear 0s infinite alternate none;
-}
-@keyframes saritha{
-    0% {top: 0px;}
-    25%{top: 0px;}
-    50%{left: 100px;}
-    75%{left: 100px;}
-    100%{top: 0px;}
-}
+
