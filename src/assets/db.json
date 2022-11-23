@@ -48,22 +48,7 @@
       "repassword": "vijay",
       "id": 4
     },
-    {
-<<<<<<< HEAD
-      "fname": "gaddammadhukiranreddy",
-      "email": "kirana@143",
-      "uname": "gaddam",
-      "password": "Kiran@143",
-      "repassword": "Kiran@143",
-      "id": 5
-=======
-      "fname": "R.seshu",
-      "email": "ddzf",
-      "uname": "dssaffsd",
-      "password": "sadsdff",
-      "repassword": "ADSAFSAF",
-      "id": 3
-    },
+    
     {
       "fname": "",
       "email": "",
@@ -95,7 +80,6 @@
       "password": "sefsergrdsf",
       "repassword": "sgfrdhtrt",
       "id": 7
->>>>>>> ce028646b5bc3e13f1e2eb624e12ca7a39ef526e
     }
   ]
 }
