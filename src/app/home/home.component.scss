@@ -73,6 +73,7 @@ form {
     background-size: cover;
     padding-left: 207px;
     overflow-x: hidden;
+    margin-top: 81px;
 }
 .bg img{
     margin-left: 30px;
@@ -87,6 +88,7 @@ form {
 }
 .image{
     margin-left:94px;
+    margin-top: 20px;
 }
 .img-responsive {
     max-width: 100%;
@@ -364,17 +366,18 @@ overflow-x: hidden;
 }
 .mfs p{
     color:#020c1a;
-    margin-top: 30px;
+    margin-top: 53px;
+    font-size: 16px;
 
 }
 .btn1{
     background-color: #3c65f5;
-    width: 110px;
-    height: 36px;
+    width: 114px;
+    height: 45px;
     border-radius: 9px;
     border: none;
-    margin-top: 76px;
-    margin-left: 78px;
+    margin-top: 45px;
+    margin-left: 4px;
 }
 .fx{
     display: flex;
@@ -383,7 +386,7 @@ overflow-x: hidden;
     display: flex;
 }
 .mfs{
-    margin-top: 180px;
+    margin-top: 224px;
 }
 .lm{
     margin-left: 25px;
@@ -880,4 +883,23 @@ border-radius: 15px;
             transform: translateY(-2px);
             transition: .2s;
         }
-
+// .shape-1{
+//     animation: sari 2.5s linear 0s infinite alternate none;
+// }
+// @keyframes sari{
+//     0% {top: 0px;}
+//     25%{top: 0px;}
+//     50%{top: 70px;}
+//     75%{top: 70px;}
+//     100%{top: 0px;}
+// }
+// .shape-2{
+//     animation: saritha 2.5s linear 0s infinite alternate none;
+// }
+// @keyframes saritha{
+//     0% {top: 0px;}
+//     25%{top: 0px;}
+//     50%{left: 100px;}
+//     75%{left: 100px;}
+//     100%{top: 0px;}
+// }
