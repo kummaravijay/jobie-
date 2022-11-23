@@ -1,0 +1,77 @@
+<div class="main">
+    <div class="pt-100 login-register">
+        <div class="container">
+            <div class="row login-register-cover">
+                <div class="col-lg-4 col-md-6 col-sm-12 mx-auto">
+                    <div class="text-center">
+                        <p class="font-sm text-brand-2">Welcome back!</p>
+                        <h2 class="mt-10 mb-3 text-brand-1">Member Login</h2>
+                        <p class="font-sm text-muted mb-30">Access to all features. No credit card required.</p>
+                        <button class="btn social-login hover-up mb-20">
+                            <img src="../../assets/icon-google.svg" alt="image">
+                            <strong>Sign up with Google</strong>
+                        </button>
+                        <div class="divider-text-center">
+                            <span>Or continue with</span>
+                        </div>
+                    </div>
+                    <form class="login-register text-start mt-20" [formGroup]="loginForm" (ngSubmit)="login()">
+                        <div class="form-group">
+                            <label for="input-1" class="form-label">Email *</label>
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="input-1"
+                                required
+                                name="email"
+                                placeholder="varcasjob"
+                                formControlName="email"
+                            >
+                        </div>
+                        <div *ngIf="(loginForm.controls['email'].touched||submitted)&&loginForm.get('email')?.hasError('required')"
+                        class="tex-color">* email is required</div>
+                    <div *ngIf="(loginForm.controls['email'].touched||submitted)&&loginForm.get('email')?.hasError('email')"
+                        class="tex-color">* email invaild is required</div>
+
+                        <div class="form-group">
+                            <label for="input-2" class="form-label">Password *</label>
+                            <input
+                                type="password"
+                                class="form-control"
+                                id="input-2"
+                                required
+                                name="password"
+                                placeholder="************"
+                                formControlName="password"
+                            >
+                        </div>
+                        <div *ngIf="(loginForm.controls['password'].touched||submitted)&&loginForm.get('password')?.hasError('required')"
+                        class="tex-color">* password is required</div>
+
+                        <div class="login_footer form-group d-flex justify-content-between">
+                            <label class="cb-container">
+                                <input type="checkbox">
+                                <span class="text-small">Remenber me</span>
+                                <span class="checkmark"></span>
+                            </label>
+                            <a class="text-muted">Forgot Password</a>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-brand-1 hover-up w-100" type="submit" name="login">Login</button>
+                        </div>
+                        <div class="text-muted text-center">
+                            Don't have an Account ?
+                            <a routerLink="/register">Sign up</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="img-4 d-none d-lg-block">
+                    <img class="shape-1" src="../../assets/img-4 (1).svg" alt="animation img">
+                </div>
+                <div class="img-3">
+                    <img src="../../assets/img-3.svg" alt="building img">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
