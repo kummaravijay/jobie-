@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { RegisterComponent } from './register/register.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
 import { SigninComponent } from './signin/signin.component';
 import { CandidateprofileComponent } from './candidateprofile/candidateprofile.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -37,7 +38,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatButtonModule,
     MatCardModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
