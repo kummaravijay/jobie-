@@ -20,7 +20,10 @@ export class RegisterComponent implements OnInit {
       uname:["",Validators.required],
       password:["",Validators.required],
       repassword:["",Validators.required],
-    })
+    },{validator:this.matchpassword})
+  }
+ matchpassword(Formgroup:FormGroup) {
+ return Formgroup.controls['password'].value && Formgroup.controls['password'].value===Formgroup.controls['repassword'].value?Formgroup.controls['cpassword'].setErrors(null):Formgroup.controls['cpassword'].setErrors({'misMatch':true})
   }
    submit(){
     if(this.project.valid){
@@ -31,6 +34,7 @@ export class RegisterComponent implements OnInit {
           this.project.reset();
         },err=>{
           console.log(err);
+        alert("Password Mismatch")
         }
       )
     }else{
