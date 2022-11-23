@@ -134,6 +134,23 @@
     color: #f58a3c;
     margin-top: 25px;
 }
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+.paword{
+    color: #a0abb8;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: Plus Jakarta Sans,sans-serif;
+    line-height: 45px;
+}
+.pssword{
+    width: 224px;
+    height: 50px;
+    border: 1px solid #e0e6f6;
+}
+
 .checkbox{
     color: #a0abb8;
     font-weight: 500;
@@ -162,6 +179,7 @@
     background-color: #05264e;
     cursor: pointer;
 }
+
 .skil-text{
     border: 2px solid black;
     width: 100%;
