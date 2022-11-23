@@ -14,6 +14,9 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: '', redirectTo: 'register', pathMatch: 'full' },
   {
+    path:'homecomponent',component:HomeComponent
+  },
+  {
     path:'candidateprofile', component: CandidateprofileComponent,
     children: [
       // {
@@ -28,9 +31,7 @@ const routes: Routes = [
       {
         path:'savedjobs',component:SavedjobsComponent
       },
-      {
-        path:'home',component:HomeComponent
-      }
+      
     ]
 
   },
