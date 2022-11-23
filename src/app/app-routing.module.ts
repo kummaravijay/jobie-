@@ -15,11 +15,11 @@ const routes: Routes = [
   {
     path:'candidateprofile', component: CandidateprofileComponent,
     children: [
-      // {
-      //   path:'',component:MyprofileComponent
-      // },
       {
-        path: 'myprofile',component: MyprofileComponent
+        path:'',component:MyprofileComponent
+      },
+      {
+      path: 'myprofile',component: MyprofileComponent
       },
       {
         path: 'myjob',component:MyjobComponent
