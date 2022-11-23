@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { RegisterComponent } from './register/register.component';
 import { FooterComponent } from './footer/footer.component';
+import { JobiboxComponent } from './jobibox/jobibox.component';
+
 import { HomeComponent } from './home/home.component';
 import { SigninComponent } from './signin/signin.component';
 import { CandidateprofileComponent } from './candidateprofile/candidateprofile.component';
@@ -25,6 +27,7 @@ import { StepperComponent } from './stepper/stepper.component';
     HeaderComponent,
     RegisterComponent,
     FooterComponent,
+    JobiboxComponent,
     SigninComponent,
     CandidateprofileComponent,
     MyprofileComponent,

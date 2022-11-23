@@ -2,6 +2,7 @@ import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CandidateprofileComponent } from './candidateprofile/candidateprofile.component';
 import { HeaderComponent } from './header/header.component';
+import { JobiboxComponent } from './jobibox/jobibox.component';
 import { HomeComponent } from './home/home.component';
 import { MyjobComponent } from './myjob/myjob.component';
 import { MyprofileComponent } from './myprofile/myprofile.component';
@@ -11,6 +12,9 @@ import { SigninComponent } from './signin/signin.component';
 
 
 const routes: Routes = [
+  {path:'register',component:RegisterComponent},
+  {path:'',redirectTo:'register',pathMatch:'full'},
+  {path:'jobibox',component:JobiboxComponent},
   { path: 'register', component: RegisterComponent },
   { path: '', redirectTo: 'register', pathMatch: 'full' },
   {
