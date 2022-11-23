@@ -9,13 +9,15 @@ import { FooterComponent } from './footer/footer.component';
 import { SigninComponent } from './signin/signin.component';
 import { ReactiveFormsModule } from '@angular/forms'
 import { HttpClientModule } from '@angular/common/http';
+import { JobgridComponent } from './jobgrid/jobgrid.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     RegisterComponent,
     FooterComponent,
-    SigninComponent
+    SigninComponent,
+    JobgridComponent
   ],
   imports: [
     BrowserModule,
