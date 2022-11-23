@@ -17,6 +17,22 @@
       "id": 2
     },
     {
+      "fname": "R.seshu",
+      "email": "ddzf",
+      "uname": "dssaffsd",
+      "password": "sadsdff",
+      "repassword": "ADSAFSAF",
+      "id": 3
+    },
+    {
+      "fname": "",
+      "email": "",
+      "uname": "",
+      "password": "",
+      "repassword": "",
+      "id": 2
+    },
+    {
       "fname": "vijay",
       "email": "kumar@gmail.com",
       "uname": "vijju",
@@ -33,12 +49,53 @@
       "id": 4
     },
     {
+<<<<<<< HEAD
       "fname": "gaddammadhukiranreddy",
       "email": "kirana@143",
       "uname": "gaddam",
       "password": "Kiran@143",
       "repassword": "Kiran@143",
       "id": 5
+=======
+      "fname": "R.seshu",
+      "email": "ddzf",
+      "uname": "dssaffsd",
+      "password": "sadsdff",
+      "repassword": "ADSAFSAF",
+      "id": 3
+    },
+    {
+      "fname": "",
+      "email": "",
+      "uname": "",
+      "password": "",
+      "repassword": "",
+      "id": 4
+    },
+    {
+      "fname": "R.seshu",
+      "email": "seshu123@gmail.com",
+      "uname": "gfd g,mdg",
+      "password": "123456",
+      "repassword": "654321",
+      "id": 5
+    },
+    {
+      "fname": "R.seshu",
+      "email": "seshu123@gmail.com",
+      "uname": "seshu",
+      "password": "123456",
+      "repassword": "654321",
+      "id": 6
+    },
+    {
+      "fname": "R.seshu",
+      "email": "seshu123@gmail.com",
+      "uname": "gfd g,mdg",
+      "password": "sefsergrdsf",
+      "repassword": "sgfrdhtrt",
+      "id": 7
+>>>>>>> ce028646b5bc3e13f1e2eb624e12ca7a39ef526e
     }
   ]
 }

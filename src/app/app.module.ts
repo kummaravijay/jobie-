@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { RegisterComponent } from './register/register.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
 import { SigninComponent } from './signin/signin.component';
 import { CandidateprofileComponent } from './candidateprofile/candidateprofile.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -17,6 +18,7 @@ import { SavedjobsComponent } from './savedjobs/savedjobs.component';
 import {MatCardModule} from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms'
 import { HttpClientModule } from '@angular/common/http';
+import { StepperComponent } from './stepper/stepper.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     CandidateprofileComponent,
     MyprofileComponent,
     MyjobComponent,
-    SavedjobsComponent
+    SavedjobsComponent,
+    StepperComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatButtonModule,
     MatCardModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
