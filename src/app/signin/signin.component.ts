@@ -38,7 +38,7 @@ export class SigninComponent implements OnInit {
           alert('successfull')
         }
       }, err => {
-        alert('something wrong')
+        // alert('something wrong')
       })
   }
 }

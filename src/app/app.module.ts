@@ -18,6 +18,7 @@ import { SavedjobsComponent } from './savedjobs/savedjobs.component';
 import {MatCardModule} from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms'
 import { HttpClientModule } from '@angular/common/http';
+import { StepperComponent } from './stepper/stepper.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     CandidateprofileComponent,
     MyprofileComponent,
     MyjobComponent,
-    SavedjobsComponent
+    SavedjobsComponent,
+    StepperComponent
   ],
   imports: [
     BrowserModule,
