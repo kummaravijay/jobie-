@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="section">
+        <p class="main">Forgort Password</p>
+    <h1 class="header">Reset Your Password</h1>
+    <p class="text">Enter email address associated with your account and we'll<br> send you a link to reset your password</p>
+    <div class="content">Email Address*</div>
+    <input type="text" placeholder="stevenjob@gmail.com" class="type">
+    <div>
+        <button class="btn btn-success" (click)="openpopup()">Continue</button>
+    </div>
+    <div class="over-lay" *ngIf="show" (click)="classoverlay($event)">
+        <div class="content1">
+            <div class="close" (click)="closepopup()">
+                &times;
+            </div>
+            <div class="put">
+                <input type="password" class="form-control-mb2" placeholder="set new password">
+            </div>
+            <div class="put">
+                <input type="password" class="form-control-mb2" placeholder="confirm new password">
+            </div>
+            <button class="btn btn-primary mt-3">Submit</button>
+        </div>
+    </div>
+    <div>
+        Don't have an Account?
+        <a href="">Sign Up</a>
+    </div>
+    </div>
+    <div class="img">
+        <img src="../../assets/rpimg.svg" alt="">
+    </div>
+    <div class="ani">
+        <img class="animation" src="../../assets/rpaimg.svg" alt="">
+    </div>
+    <!-- <p>Don't have an Account?<span class="signup">Sign Up</span></p> -->
+    
+</div>

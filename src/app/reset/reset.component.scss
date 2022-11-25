@@ -1,0 +1,101 @@
+.container{
+    display: grid;
+    justify-content: center;
+    margin-top: 108px;
+}
+.section{
+    // position: absolute;
+    top: 19%;
+    left: 38%;
+    text-align: center;
+}
+.main{
+    color: #3c65f5;
+}
+.header{
+    color: #05264e;
+    font-size: 42px;
+}
+.type{
+    padding: 14px 25px;
+    width: 405px;
+    border-radius: 4px;
+}
+.content{
+    color: #05264e;
+    margin-left: -292px;
+}
+.text{
+    color: #6c757d!important;
+}
+.btn-success{
+    padding: 14px 25px;
+    width: 405px;
+    margin-top: 10px;
+    background: #05264e;
+    color: #fff;
+    border-radius: 4px;
+}
+.signup{
+    color: #05264e;
+}
+.img{
+    // position: absolute;
+    // left: 0px;
+    // bottom: 0px;
+    margin-left: -71%;
+}
+.ani{
+    position: absolute;
+    top: 30%;
+    right: 15%;
+}
+.animation{
+    animation: hero-thumb-animation 1s linear infinite alternate;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: hero-thumb-animation;
+}
+@keyframes hero-thumb-animation{
+    0%   { top:0px;}
+    25%  { top:0px;}
+    50%  { top:20px;}
+    75%  { top:35px;}
+    100% { top:0px;}
+}
+.over-lay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content1{
+    background-color: #fff;
+    width: 550px;
+    height: 315px;
+    padding: 20px;
+}
+.close{
+    padding-left: 490px;
+    font-size: 25px;
+}
+.form-control{
+    border: none;
+}
+.put input{
+    margin-top: 10px;
+    width: 330px;
+    border-radius: 6px;
+    height: 50px;
+}
