@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { RegisterComponent } from './register/register.component';
 import { FooterComponent } from './footer/footer.component';
-import { MainComponent } from './main/main.component';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatIconModule} from'@angular/material/icon';
 import{MatButtonModule} from'@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProfilesComponent } from './profiles/profiles.component';
 
 @NgModule({
   declarations: [
@@ -17,14 +18,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HeaderComponent,
     RegisterComponent,
     FooterComponent,
-    MainComponent
+    
+    ProfilesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

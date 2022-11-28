@@ -1,0 +1,306 @@
+.class img{
+    margin: 121px 120px;
+    width: 77%;
+    border-radius: 16px;
+}
+.class1 img{
+    margin-top: -284px;
+    margin-left: 198px;
+    border-radius: 16px;
+}
+.sec:hover{
+    transform:translateY(-2px);
+    transition: .5s;
+    cursor:pointer;
+  
+}
+
+.steven{
+    font-size: 18px;     color: #05264e; font-family: Plus Jakarta Sans,sans-serif; 
+}
+.place{
+    margin-left:11px;font-size: 19px;
+        color: #a0abb8; margin-top:1px;
+}
+.newyork{
+    margin-top:1px;font-size: 16px;
+        color: #a0abb8;font-family: Plus Jakarta Sans,sans-serif
+}
+.frontend{
+    margin-left: 196px;    color: #66789c;font-size: 16px; font-family: Plus Jakarta Sans,sans-serif;
+    
+}
+.buttons{
+    margin-left: 953px;    background-color: #3c65f5;
+color: #fff;
+padding: 18px 35px;
+border-radius: 4px;border:none;    position: relative;
+    top: -84px; 
+        padding: 18px 30px 18px 65px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: Plus Jakarta Sans,sans-serif;
+}
+.buttons:hover{
+    color: #fff;
+    background-color: #05264e;
+}
+.buttonn{
+      margin-left: 153px; border: 1px solid #b4c0e0;
+     padding: 10px 23px;
+     border-radius: 10px;
+     background: #fff;
+     color: #4f5e64;
+     font-size: 16px;
+     line-height: 26px;
+     transition-duration: .2s;
+     color: #05264e;
+     font-weight: 500;
+     margin-right:15px!important;font-family: Plus Jakarta Sans,sans-serif;
+}
+.quoraa{
+    background: #f8faff;
+    width: 732px;
+    height: 326px;    border: 1px solid #e0e6f7;    margin-left: 146px;
+        margin-top: 31px
+}
+.quoraa:hover{
+    transform:translateY(-10px);
+    transition:.2s;
+    background-color: #fff;
+    cursor:pointer;
+}
+.quoraa:hover .view{
+    background-color: #3c65f5;
+   color:white;
+}
+.buttonn:hover{
+    transform:translateY(-10px);
+    transition:.2s;
+}
+.new{
+    text-align:center;    color: #fff;
+            font-size: 37px;
+            line-height: 55px;
+            font-family: Plus Jakarta Sans,sans-serif;
+            font-weight: 700;     width: 438px;
+    margin-left: 292px;
+    position: relative;
+    top: 68px;
+}
+// .neww:hover .new{
+//     background-color:#3c65f5;
+//     color:#05264e
+    
+    
+.sub{
+color: #fff;
+background-color: #3c65f5;
+line-height: 26px;
+padding: 10px 25px;border:none;    font-family: Plus Jakarta Sans,sans-serif;
+font-weight: 500;    border-radius: 8px;
+
+font-size: 14px;
+}
+.send{
+    font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            color: #fff;
+            padding: 15px 28px 15px 60px;
+            background: #3c65f5;
+            border:none;font-family: Plus Jakarta Sans,sans-serif;
+}
+.send:hover{
+    background-color:#05264e;
+}
+// .subb:hover{
+//     color: #05264e;
+//     transform: translateY(-2px);
+//     transition: .2s;
+// }
+.know{
+    padding: 8px 16px;
+    background: #66789c;
+    border-radius: 5px;
+    color: #3c65f5;
+    min-width: 42px;
+    font-size: 11px;
+    color: #fff;
+    line-height: 14px;
+    border:none
+}
+.know:hover{
+    color: #212529;
+    cursor:pointer;
+}
+.view{
+    background-color: #e0e6f7;
+        color: #3c65f5;
+        padding: 12px 10px;
+        min-width: 95px;
+        border-radius: 4px;
+        font-size: 12px;
+        text-transform: capitalize;font-weight: 400; font-family: Plus Jakarta Sans,sans-serif;border:none;margin-right:17px
+}
+
+.buttoo{
+    border: 1px solid #b4c0e0;
+     padding: 10px 23px;
+     border-radius: 10px;
+     background: #fff;
+     border-color:aliceblue;
+     color: #4f5e64;
+     font-size: 16px;
+     line-height: 26px; margin-right:15px!important;font-family: Plus Jakarta Sans,sans-serif;  font-weight: 500; 
+}
+.buttoo:hover{
+    transform:translateY(-10px);
+    transition:.2s;
+}
+.butt{
+    border: 1px solid#b4c0e0;
+    padding: 10px 23px;
+    border-radius: 10px;
+    background: #fff;
+    border-color:aliceblue;
+    color: #4f5e64;
+    font-size: 16px;
+    line-height: 26px; font-family: Plus Jakarta Sans,sans-serif;  font-weight: 500;padding-left:15px
+}
+.butt:hover{
+    transform:translateY(-10px);
+    transition:.2s;
+}
+
+.class2{
+    display: flex;
+    margin-top: -93px;
+    margin-left: 203px;
+    // justify-content: space-evenly;
+}
+.images{
+    margin-left:194px;
+    margin-top: 28px;
+}
+.horizoin h4{
+    margin-top: 20px;
+    color: #4f5e64;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: Plus Jakarta Sans,sans-serif;
+    margin-left: 151px;
+}
+.icon{
+    position: relative;
+   left: -11px;
+   top: 7px;
+}
+.exp{
+    display:flex;
+    margin-top:13px;
+
+
+}
+.exp2{
+    display:inline-grid;
+    margin-left: 8px;
+}
+
+.expp{
+    display:flex;
+    margin-top:13px;
+
+}
+.expp2{
+    display:inline-grid;
+    margin-left: 23px;
+}
+
+.exps{
+    display:flex;
+    margin-top:13px;
+
+}
+.exps2{
+    display:inline-grid;
+    margin-left: 8px;
+}
+
+.expt{
+    display:flex;
+    margin-top:13px;
+
+}
+.expt2{
+    display:inline-grid;
+    margin-left: 8px;
+}
+.origin{
+    display:flex;
+}
+.progress{
+    background-color: #66789c ;
+}
+
+
+.overview{
+    
+    border: 1px solid #e0e6f7;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #fff;
+
+    width:24%;
+    margin-left: 941px;
+    margin-top: -269px;
+    font-family: Plus Jakarta Sans,sans-serif;
+}
+.proo{
+    display:flex;
+    // flex-direction:row
+}
+.proo1{
+    display:flex;
+}
+
+.proo2{
+    display:flex;
+}
+.proo3{
+    display:flex;
+}
+// .flex{
+// display:flex;
+// }
+.side{
+  
+    background-color: #f2f6fd;
+    width: 306px;
+    margin-left: 960px;
+    /* margin-top: -384px; */
+    padding-top: -112px;
+    position: relative;
+    top: -628px;
+    padding-left: 35px;
+    padding-top: 22px;
+
+}
+// input[type="range"]{
+//     position:relative;
+//     -webkit-appearance: none;
+//     -moz-appearance: none;
+//     // display:block;
+//     background-color: #e0e6f7;
+   
+// }
+// progress::-webkit-progress-bar{
+//     background-color:violet;
+// }
+// #slider{
+//     -webkit-appearance: none;
+//     border-radius:3px;
+    
+// }
