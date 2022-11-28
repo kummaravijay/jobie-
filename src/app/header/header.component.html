@@ -17,8 +17,8 @@
                                 <i class="fas fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content1">
-                                <a href="#">
-                                    Home1
+                                <a routerLink="homecomponent">
+                                    Home
                                 </a>
                                 <a href="#">
                                     Home2
@@ -41,7 +41,7 @@
                                 <i class="fas fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content1">
-                                <a href="#">Recruiters</a>
+                                <a routerLink="jobibox">Recruiters</a>
                                 <a href="#">Company Details</a>
                             </div>
                         </div>
@@ -51,8 +51,10 @@
                                 <i class="fas fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content1">
-                                <a href="#">Candidates Profile</a>
+                                
                                 <a routerLink="profiles">Candidates Details </a>
+                                <a routerLink="candidateprofile">Candidates Profile</a>
+                                
                             </div>
                         </div>
                         <div class="dropdown">
@@ -72,7 +74,7 @@
                 <div class="icons">
                     <div class="btn-1">
                         <button class="btn-2">Register</button>
-                        <button class="btn-3">sign in</button>
+                        <button class="btn-3"(click)="LogoutUser()">Logout</button>
                        
                     </div>
                 </div>
@@ -80,9 +82,12 @@
         </div>
     </div>
     <div class="main">
-        <!-- <router-outlet></router-outlet> -->
     </div>
 </div>
+<<<<<<< HEAD
 <!-- <div>
     <h1>hello</h1>
 </div> -->
+=======
+
+>>>>>>> 464c3b9ef3281f4966be9a2aed5c6b2fbf7bc357

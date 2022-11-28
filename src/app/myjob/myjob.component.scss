@@ -1,0 +1,152 @@
+.container{
+    width: 100%;
+    margin-left: 202px;
+    margin-top: 34px;
+    
+}
+.border{
+    border-radius: 8px;
+    border: 1px solid #e0e6f7;
+    overflow: hidden;
+    margin-bottom: 24px;
+    position: relative;
+    background: #f8faff;
+    width: 943px;
+    height: 308px;
+}
+.border:hover{
+    transition: all .25s cubic-bezier(.02,.01,.47,1);
+    cursor: pointer;
+}
+
+.myjob h1{
+    color: #05264e;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.imgsrc img{
+    padding: 17px 25px;
+}
+
+.linkedin h3{
+    padding-top: 19px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #05264e;
+    font-weight: 700;
+    display: block;
+}
+.place{
+
+    position: relative;
+    bottom: 15px;
+    /* left: -3px; */
+    right: 7px;
+    font-size: 12px;
+    color: #a0abb8;
+}
+#newyork{
+    position: relative;
+    bottom: 17px;
+    /* left: -3px; */
+    right: 7px;
+    font-size: 12px;
+    color: #a0abb8;
+}
+#adode{
+    margin-left: 370px;
+    margin-top: 20px;
+    width: 132px;
+    border: none;
+    height: 37px;
+    background-color: #eff3fc;
+    font-size: 12px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    color: #4f5e64!important;
+}
+#adode1{
+    margin-left: 13px;
+    /* padding-top: 21px; */
+    margin-top: 20px;
+    width: 132px;
+    border: none;
+    height: 37px;
+    background-color: #eff3fc;
+    font-size: 12px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    color: #4f5e64!important;
+}
+.figma img{
+    margin-left: 20px;
+
+}
+.react-nav h1{
+    margin-top: 20px;
+    color: #05264e;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 20px;
+    
+}
+.react-nav h1:hover{
+    color: #3c65f5;
+}
+.fulltime{
+    display: flex;
+    margin-left: 20px;
+}
+.card1{
+    
+    font-size: 1px;
+    border: none;
+    color: #4f5e64
+}
+.card{
+    
+    font-size: 1px;
+    border: none;
+    color: #a0abb8;
+    margin-left: 27px;
+}
+.time{
+    font-size: 16px;
+    color: #a0abb8;
+    margin-top: -2px;
+}
+.para p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left:20px;
+    color: #4f5e64;
+    margin-top: -11px;
+}
+ #rupees{
+    color: #3c65f5;
+    font-family: Plus Jakarta Sans,sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 20px;
+}
+#hours{
+    font-family: Plus Jakarta Sans,sans-serif;
+    
+    font-size: 20px;
+    color: #6c757d
+}
+.hours1 button{
+    margin-left: 667px;
+    margin-top: 17px;
+    width: 121px;
+    height: 42px;
+    background-color: #e0e6f7;
+    color: #3c65f5;
+}
+.hours1 button:hover{
+    transition: .2s;
+    background-color: #3c65f5;
+    color: #e0e6f7;
+}
+

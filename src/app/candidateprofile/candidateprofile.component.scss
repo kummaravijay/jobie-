@@ -1,0 +1,267 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efefef;
+
+}
+
+.container {
+    width: 100%;
+}
+
+.imgsrc {
+    position: relative;
+}
+
+.imgsrc img {
+    width: 100%;
+    border-radius: 16px;
+    margin: 131px 204px;
+    margin-top: 161px;
+    
+}
+
+.imgsrc button {
+
+    position: absolute;
+    bottom: 153px;
+    left: 1459px;
+    background-color: #3c65f5
+}
+
+.image {
+    position: absolute;
+    /* bottom: -57px; */
+    /* bottom: -32px; */
+    top: 370px;
+    left: 275px;
+}
+
+.image img {
+    border-radius: 16px;
+    object-fit: cover;
+    font-size: 18px;
+    margin-top: 109px;
+
+}
+
+.displayflex {
+    margin-top: 31px;
+}
+
+.displayflex h3 {
+    color: #05264e;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.place {
+    color: #a0abb8;
+    margin-left: 20px;
+}
+
+#newyork {
+    color: #a0abb8;
+
+}
+
+.designer {
+    position: relative;
+    bottom: 11px;
+    color: #66789c;
+    font-size: 16px;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.btneye {
+    margin-left: 736px;
+    width: 191px;
+    height: 62px;
+    background-color: #3c65f5;
+    margin-top: 18px;
+}
+.red-eye{
+    padding-right:39px;
+}
+
+.border-bottom {
+    position: relative;
+    top: 39px;
+    width: 1341px;
+    left: 194px;
+    height: 67px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.container1 {
+    width: 90%;
+    margin: 0px 172px;
+}
+
+.padding {
+    padding: 26px;
+}
+
+.btn-btn {
+    width: 23%;
+}
+
+.inputfields {
+    width: 35%;
+}
+
+.skills {
+    width: 32%;
+}
+
+.un-order li button {
+    color: #05264e;
+    background-color: #fff;
+    
+    width: 272px;
+    height: 42px;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding-right: 128px;
+    font-size: 20px;
+    padding-left: 14px;
+    box-shadow: 0 2px 4px -5px #0a2a69;
+    border: 1px solid #b4c0e0;
+
+}
+.un-order li{
+    list-style: none;
+}
+.un-order li button :hover{
+    transition-duration: .2s;
+    transform: translateY(-3px);
+}
+.b-bottom{
+    border-bottom: 1px solid silver;
+    margin-top: 52px;
+    width: 273px;
+}
+
+.mat-icons{
+    font-size: 18px;
+}
+.delete{
+    color: #e45959;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    margin-top: 47px;
+    width: 138PX;
+}
+
+
+#btm-btm{
+    border-bottom: 1px solid silver;
+    margin-top: 52px;
+    width: 93%;
+}
+.boxnews{
+    
+    background-image:url("../../assets/bg-newsletter.f1b946ec.svg") ;
+    background-position: 50% 50%;
+    background-size: cover;
+    
+    border-radius:16px;
+    position: relative;
+    margin: 51px 204px;
+    height: 358px;
+}
+#newsletter-right{
+    position: absolute;
+    top: 40px;
+    left: 33px;
+}
+#newsletter-left{
+    position: absolute;
+    top: 19px;
+    left: 1086px;
+}
+#update{
+    text-align: center;
+    color: #fff;
+    font-size: 37px;
+    line-height: 55px;
+    font-family: Plus Jakarta Sans,sans-serif;
+    font-weight: 700;
+    width: 550px;
+    position: absolute;
+    left: 365px;
+    top: 28px;
+}
+#email{
+    position: absolute;
+    left: 364px;
+    top: 173px;
+    background: #fff;
+    /* max-width: 610px; */
+    width: 600px;
+    height: 85px;
+    border-radius: 19px;
+    padding-left: 65px;
+    font-size: 23px;
+    border:none;
+}
+#email-icon{
+    
+    position: absolute;
+    left: 391px;
+    top: 201px;
+    z-index: 2
+}
+#subscribe{
+    position: absolute;
+    left: 811px;
+    top: 184px;
+    width: 144px;
+    height: 64px;
+    border-radius: 19px;
+    background-color: #3c65f5;
+    color: #fff;
+    border: none;
+}
+#subscribe:hover{
+    background-color: #05264e;
+    transform: translateY(-2px);
+    transition: .2s;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+.paword{
+    color: #a0abb8;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: Plus Jakarta Sans,sans-serif;
+    line-height: 45px;
+}
+.pssword{
+    width: 245px;
+    height: 50px;
+    border: 1px solid #e0e6f6;
+}
