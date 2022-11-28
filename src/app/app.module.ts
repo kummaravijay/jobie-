@@ -6,7 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { RegisterComponent } from './register/register.component';
 import { FooterComponent } from './footer/footer.component';
+<<<<<<< HEAD
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatIconModule} from'@angular/material/icon';
+import{MatButtonModule} from'@angular/material/button';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProfilesComponent } from './profiles/profiles.component';
+=======
 import { JobiboxComponent } from './jobibox/jobibox.component';
+>>>>>>> 464c3b9ef3281f4966be9a2aed5c6b2fbf7bc357
 
 import { HomeComponent } from './home/home.component';
 import { SigninComponent } from './signin/signin.component';
@@ -27,6 +35,10 @@ import { StepperComponent } from './stepper/stepper.component';
     HeaderComponent,
     RegisterComponent,
     FooterComponent,
+<<<<<<< HEAD
+    
+    ProfilesComponent
+=======
     JobiboxComponent,
     SigninComponent,
     CandidateprofileComponent,
@@ -34,6 +46,7 @@ import { StepperComponent } from './stepper/stepper.component';
     MyjobComponent,
     SavedjobsComponent,
     StepperComponent
+>>>>>>> 464c3b9ef3281f4966be9a2aed5c6b2fbf7bc357
   ],
   imports: [
     BrowserModule,
@@ -41,9 +54,13 @@ import { StepperComponent } from './stepper/stepper.component';
     BrowserAnimationsModule,
     MatIconModule,
     MatButtonModule,
+<<<<<<< HEAD
+    MatProgressBarModule
+=======
     MatCardModule,
     ReactiveFormsModule,
     HttpClientModule,
+>>>>>>> 464c3b9ef3281f4966be9a2aed5c6b2fbf7bc357
   ],
   providers: [],
   bootstrap: [AppComponent]
