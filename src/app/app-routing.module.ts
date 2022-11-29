@@ -9,6 +9,8 @@ import { MyprofileComponent } from './myprofile/myprofile.component';
 import { RegisterComponent } from './register/register.component';
 import { SavedjobsComponent } from './savedjobs/savedjobs.component';
 import { SigninComponent } from './signin/signin.component';
+import { StepperComponent } from './stepper/stepper.component';
+
 
 
 const routes: Routes = [
@@ -17,6 +19,9 @@ const routes: Routes = [
   {path:'jobibox',component:JobiboxComponent},
   { path: 'register', component: RegisterComponent },
   { path: '', redirectTo: 'register', pathMatch: 'full' },
+  {
+    path:'stepper',component:StepperComponent
+  },
   {
     path:'homecomponent',component:HomeComponent
   },

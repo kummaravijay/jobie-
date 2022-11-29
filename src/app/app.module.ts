@@ -21,6 +21,9 @@ import {MatCardModule} from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms'
 import { HttpClientModule } from '@angular/common/http';
 import { StepperComponent } from './stepper/stepper.component';
+import {MatStepperModule} from '@angular/material/stepper';;
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from "@angular/material/form-field";
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +36,7 @@ import { StepperComponent } from './stepper/stepper.component';
     MyprofileComponent,
     MyjobComponent,
     SavedjobsComponent,
-    StepperComponent
+    StepperComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,8 +45,11 @@ import { StepperComponent } from './stepper/stepper.component';
     MatIconModule,
     MatButtonModule,
     MatCardModule,
+    MatStepperModule,
     ReactiveFormsModule,
     HttpClientModule,
+    MatInputModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
