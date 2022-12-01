@@ -1,0 +1,1179 @@
+.main {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #f2f6fd;
+    margin-top: 20px;
+    width: 1100px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.main1 {
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+
+    .mainspan {
+        color: #3c65f5;
+
+    }
+}
+
+// .box {
+//     color: black;
+//     width: 40px;
+//     height: 10px;
+//     position: relative;
+// }
+.main {
+
+    // float: right;
+    // position: relative;
+    // top: 100px;
+    p {
+        color: gray;
+        // width: 80%;
+    }
+}
+
+.img {
+    background-repeat: no-repeat;
+    float: right;
+    width: 100px;
+    margin-right: 90px;
+    margin-top: -8px;
+
+    img {
+        width: 200px;
+        // margin-bottom: 18px;
+    }
+}
+
+.img1 {
+    float: left;
+
+    img {
+        margin-top: -50px;
+    }
+}
+
+form {
+    display: flex;
+    // width: 100%;
+    justify-content: space-around;
+    background-color: white;
+    width: 900px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 20px;
+    color: gray;
+    margin-left: 100px;
+    margin-top: 40px;
+    position: absolute;
+}
+
+.box-industry {
+    #sele {
+        width: 100px;
+        height: 30px;
+        background: none;
+        border: none;
+        color: gray;
+
+    }
+}
+
+.in {
+    width: 250px;
+    height: 30px;
+    border: none;
+}
+
+
+.searchbtn {
+    background-color: #3c65f5;
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+.container1 {
+    margin-top: 80px;
+}
+
+.advance {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.ad {
+    display: flex;
+    justify-content: space-between;
+    width: 18%;
+    border-bottom: 0.5px solid gray;
+    padding-bottom: 10px;
+
+    h4 {
+        font-size: 20px;
+        font-weight: 600;
+        // padding: 5px;
+        margin: 5px;
+    }
+
+    button {
+        background: none;
+        border: none;
+        color: gray;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+}
+
+.ad1 {
+    display: flex;
+    width: 76%;
+    border-bottom: 0.5px solid gray;
+    padding-bottom: 5px;
+    margin-right: 45px;
+    justify-content: space-between;
+
+    p {
+        margin: 10px;
+        font-size: 15px;
+        color: gray;
+    }
+
+
+}
+
+.ad2 {
+    .view-type {
+        .img1 {
+            float: right;
+        }
+    }
+}
+
+.ad3 {
+    padding-left: 400px;
+    margin: 3px;
+
+    button {
+        color: gray;
+        background: none;
+        margin-right: 10px;
+        height: 30px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+}
+
+.ada {
+    border: 1px solid gray;
+    width: 170px;
+    height: 50px;
+    padding: 12px;
+    margin: 25px;
+    font-size: 18px;
+    color: gray;
+    margin-left: 50px;
+
+    select {
+        border: none;
+
+        option {
+            color: gray !important;
+        }
+    }
+}
+
+.abb {
+    display: flex;
+}
+
+.adb {
+    width: 18%;
+    border-bottom: 1px solid gray;
+    // padding-bottom: 20px;
+    margin-left: 50px;
+
+    h2 {
+        font-size: 30px;
+    }
+
+    input {
+        // font-size: 20px;
+        width: 25px;
+        height: 25px;
+        margin-right: 20px;
+    }
+
+    span {
+
+        display: flex;
+        line-height: 2rem;
+
+        .p {
+            color: gray;
+        }
+
+        .a {
+            font-size: 15px;
+            background-color: lightgray;
+            width: 25px;
+            height: 20px;
+            border-radius: 6px;
+            padding: 0px;
+            margin-left: 157px;
+            color: #3c65f5;
+        }
+
+        .aa {
+            font-size: 15px;
+            background-color: lightgray;
+            width: 25px;
+            height: 20px;
+            border-radius: 5px;
+            padding: 1px;
+            margin-left: 112px;
+            color: #3c65f5;
+        }
+
+        .aaa {
+            font-size: 15px;
+            background-color: lightgray;
+            width: 25px;
+            height: 20px;
+            border-radius: 5px;
+            padding: 1px;
+            margin-left: 121px;
+            color: #3c65f5;
+        }
+
+        .aaaa {
+            font-size: 15px;
+            background-color: lightgray;
+            width: 25px;
+            height: 20px;
+            border-radius: 5px;
+            padding: 1px;
+            margin-left: 109px;
+            color: #3c65f5;
+        }
+
+        .abaa {
+            font-size: 15px;
+            background-color: lightgray;
+            width: 25px;
+            height: 20px;
+            border-radius: 5px;
+            padding: 1px;
+            margin-left: 85px;
+            color: #3c65f5;
+        }
+
+        .abba {
+            font-size: 15px;
+            background-color: lightgray;
+            width: 25px;
+            height: 20px;
+            border-radius: 5px;
+            padding: 1px;
+            margin-left: 98px;
+            color: #3c65f5;
+        }
+    }
+}
+
+.acc {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.box3 {
+    span{
+        h5{
+            font-size: 18px;
+        }
+    }
+    width: 280px;
+    height: 400px;
+    border-radius: 20px;
+    margin-right: 40px;
+    border: 1px solid #e0e6f7;
+    background-color: #f8faff;
+
+    .aaimg {
+        display: flex;
+        margin: -9px;
+        margin-top: 15px;
+
+        .right {
+            .pright {
+                color: gray;
+            }
+        }
+
+        .flash {
+            position: relative;
+            left: 245px;
+            bottom: -4px;
+            height: 25px;
+            width: 25px;
+            background: url("https://jobbox-nextjs.vercel.app/_next/static/media/flash.b59af78f.svg") no-repeat 0 0;
+        }
+
+        .aimg {
+            margin-right: 20px;
+        }
+
+        .right {
+            margin-top: 5px;
+        }
+    }
+
+    h2 {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .btn3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        // grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        margin-top: 5px;
+
+        a {
+            color: black;
+            text-decoration: none;
+            // margin-right: 5px;
+            margin-left: 3px;
+            background-color: lightgrey;
+            width: 80px;
+            height: 20px;
+            border-radius: 5px;
+            text-align: center;
+
+        }
+    }
+
+    .btn2 {
+        margin: 10px;
+        margin-top: 20px;
+
+        .applybtn {
+            width: 95px;
+            height: 35px;
+            border-radius: 10px;
+            color: #3c65f5;
+        }
+
+
+    }
+}
+
+.applybtn {
+    &:hover {
+        background-color: #3c65f5 !important;
+        color: #ffffff !important;
+    }
+
+}
+
+
+.box2 {
+    span{
+        h5{
+            font-size: 18px;
+        }
+    }
+    width: 280px;
+    height: 370px;
+    border-radius: 20px;
+    border: 1px solid #e0e6f7;
+    background-color: #f8faff;
+    margin-right: 40px;
+
+    .aaimg {
+        display: flex;
+        margin: -5px;
+        margin-top: 20px;
+
+        .right {
+            .pright {
+                color: gray;
+            }
+        }
+
+        .flash {
+            position: relative;
+            left: 225px;
+            bottom: 15px;
+            height: 25px;
+            width: 25px;
+            background: url("https://jobbox-nextjs.vercel.app/_next/static/media/flash.b59af78f.svg") no-repeat 0 0;
+        }
+
+        .aimg {
+            margin-right: 20px;
+        }
+
+        .right {
+            margin-top: 5px;
+        }
+    }
+
+    h2 {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .btn3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        // grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        margin-top: 5px;
+
+        a {
+            color: black;
+            text-decoration: none;
+            // margin-right: 5px;
+            margin-left: 10px;
+            background-color: lightgrey;
+            width: 70px;
+            height: 20px;
+            border-radius: 5px;
+
+        }
+    }
+
+    .btn2 {
+        margin: 10px;
+        margin-top: 20px;
+
+        .applybtn {
+            width: 95px;
+            height: 35px;
+            border-radius: 10px;
+            color: #3c65f5;
+        }
+
+
+    }
+}
+
+.box1 {
+    span{
+        h5{
+            font-size: 18px;
+        }
+    }
+    width: 280px;
+    height: 370px;
+    border-radius: 20px;
+    border: 1px solid #e0e6f7;
+    background-color: #f8faff;
+
+    .aaimg {
+        display: flex;
+        margin: 10px;
+        margin-top: 20px;
+
+        .box1 {
+            .aaimg {
+                .right {
+                    a {
+                        &:hover {
+                            color: #3c65f5 !important;
+                        }
+                    }
+
+                    .pright {
+                        color: gray;
+                    }
+                }
+            }
+        }
+
+        .flash {
+            position: relative;
+            left: 225px;
+            bottom: 15px;
+            height: 25px;
+            width: 25px;
+            background: url("https://jobbox-nextjs.vercel.app/_next/static/media/flash.b59af78f.svg") no-repeat 0 0;
+        }
+
+        .aimg {
+            margin-right: 20px;
+        }
+
+        .right {
+            margin-top: 5px;
+        }
+    }
+
+    h2 {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .btn3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        // grid-column-gap: 5px;
+        // grid-row-gap: 5px;
+        margin-top: 5px;
+
+        a {
+            color: black;
+            text-decoration: none;
+            // margin-right: 5px;
+            margin-left: 10px;
+            background-color: lightgrey;
+            width: 80px;
+            height: 20px;
+            border-radius: 5px;
+
+        }
+    }
+
+    .btn2 {
+        margin: 10px;
+        // margin-top: 20px;
+
+        .applybtn {
+            width: 95px;
+            height: 35px;
+            border-radius: 10px;
+            color: #3c65f5;
+        }
+
+
+    }
+}
+
+.container2 {
+    margin-top: 20px;
+
+    .adb {
+        span {
+            .a1 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                // padding: 0px;
+                margin-left: 107px;
+                color: #3c65f5;
+            }
+
+            .aa1 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                // padding: 2px;
+                margin-left: 100px;
+                color: #3c65f5;
+            }
+
+            .aaa1 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 100px;
+                color: #3c65f5;
+            }
+
+            .aaaa1 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 100px;
+                color: #3c65f5;
+            }
+
+            .aba1 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 92px;
+                color: #3c65f5;
+            }
+
+            .abc1 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 85px;
+                color: #3c65f5;
+            }
+        }
+    }
+
+}
+
+.container3 {
+    .scc {
+        display: flex;
+    }
+
+    .qwe {
+        width: 18%;
+        margin-left: 50px;
+    }
+
+    .acc {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 40px;
+    }
+
+    .qwe {
+        span {
+            display: flex;
+
+            input {
+                margin-right: 18px;
+                border-radius: 10px;
+                width: 25px;
+                height: 25px;
+            }
+
+            .aaaa2 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 112px;
+                color: #3c65f5;
+            }
+
+            .aba2 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 104px;
+                color: #3c65f5;
+            }
+
+            .abc2 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                // padding: 2px;
+                margin-left: 143px;
+                color: #3c65f5;
+            }
+
+            .aaaa3 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 121px;
+                color: #3c65f5;
+            }
+
+            .aba3 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 129px;
+                color: #3c65f5;
+            }
+
+            .abc3 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                // padding: 2px;
+                margin-left: 118px;
+                color: #3c65f5;
+            }
+
+            .a4 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                // padding: 2px;
+                margin-left: 105px;
+                color: #3c65f5;
+            }
+
+            .aa4 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 2px;
+                margin-left: 100px;
+                color: #3c65f5;
+            }
+
+            .aaa4 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 106px;
+                color: #3c65f5;
+            }
+
+            .aabb4 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 111px;
+                color: #3c65f5;
+            }
+
+            .aaabb4 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 118px;
+                color: #3c65f5;
+            }
+
+            .aaabbb4 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 108px;
+                color: #3c65f5;
+            }
+
+            .aba4 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 120px;
+                color: #3c65f5;
+            }
+
+            .abc4 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 129px;
+                color: #3c65f5;
+            }
+
+            .a {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 153px;
+                color: #3c65f5;
+            }
+
+            .a5 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 137px;
+                color: #3c65f5;
+            }
+
+            .aa5 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 128px;
+                color: #3c65f5;
+            }
+
+            .aaa5 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 117px;
+                color: #3c65f5;
+            }
+
+            .a6 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 113px;
+                color: #3c65f5;
+            }
+
+            .aa6 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 110px;
+                color: #3c65f5;
+            }
+
+            .aaa6 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 85px;
+                color: #3c65f5;
+            }
+
+            .aaaa6 {
+                font-size: 15px;
+                background-color: lightgray;
+                width: 25px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 1px;
+                margin-left: 100px;
+                color: #3c65f5;
+            }
+        }
+    }
+}
+
+
+.list {
+    text-align: center;
+    margin: auto;
+    margin-left: 400px;
+    margin-top: 50px;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+
+        li {
+            padding: 1px 8px;
+            font-size: 16px;
+            font-weight: 900;
+            color: #b3b5b8;
+
+            // padding-top: 10px;
+            i {
+                background-color: #b3b5b8;
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                padding: 10px;
+                position: relative;
+                bottom: 10px;
+                color: #3c65f5;
+            }
+        }
+    }
+}
+
+.tex {
+    margin: 50px;
+    margin-left: 80px;
+    width: 80%;
+
+    h1 {
+        font-size: 38px;
+        font-weight: 600;
+        color: #05264e;
+    }
+
+    span {
+        font-size: 17px;
+        color: #b3b5b8;
+        font-weight: 400;
+
+        i {
+            background-color: #b3b5b8;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            color: #3c65f5;
+            padding: 10px;
+            padding-left: 12px;
+            font-size: 15px;
+            margin-left: 5px;
+            float: right;
+        }
+    }
+}
+
+
+
+.ng {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.ng p {
+    font-size: 20px;
+    color: #66789c;
+}
+
+.iag {
+    background-image: url("https://jobbox-nextjs.vercel.app/assets/imgs/page/homepage1/img-news1.png");
+    height: 260px;
+    width: 355px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.ws {
+    background-color: #b4c0e0;
+    width: 50px;
+    height: 25px;
+    margin-top: 11px;
+    /* padding: 0px; */
+    padding-left: 5px;
+    color: #3c65f5 !important;
+    border-radius: 5px
+}
+
+.flex8 {
+    display: flex;
+}
+
+.sh {
+    margin-left: 12px;
+    // margin-top: -5px;
+    font-size: 15px;
+    color: #4f5e64;
+    font-weight: 800;
+}
+
+.se {
+    margin-top: -13px;
+    margin-left: 12px;
+    font-size: 13px;
+    color: #66789c;
+}
+
+.round {
+    width: 50px;
+    height: 47px;
+}
+
+.re {
+    margin-left: 270px;
+    margin-top: -36px;
+    color: #66789c;
+    font-size: 13px;}
+
+.tt {
+    color: #05264e;
+    font-size: 20px;
+    font-weight: 700;
+    width: 95%;
+}
+
+.para {
+    font-size: 15px;
+    width: 85%;
+    padding-left: 5px;
+}
+
+.brdrr {
+    border: 1px solid lightgrey;
+    width: 380px;
+    height: 570px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+
+.iag1 {
+    background-image: url("https://jobbox-nextjs.vercel.app/assets/imgs/page/homepage1/img-news2.png");
+    height: 260px;
+    width: 355px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.iag2 {
+    background-image: url("https://jobbox-nextjs.vercel.app/assets/imgs/page/homepage1/img-news3.png");
+    height: 260px;
+    width: 355px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.flex9 {
+    display: flex;
+    margin-left: 50px;
+}
+
+
+.container5 {
+    margin-top: 50px;
+    background-color: #3c65f5;
+    height: 410px;
+    width: 87%;
+    padding-top: 15px;
+    margin-left: 99px;
+    border-radius: 20px;
+}
+
+.boxnews {
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 16px;
+    position: relative;
+    margin: 51px 204px;
+    height: 358px;
+    padding-top: 30px;
+    left: -152px;
+}
+
+#newsletter-right {
+    position: absolute;
+    top: 40px;
+    left: 903px;
+}
+
+#newsletter-left {
+    position: absolute;
+    top: 19px;
+    left: 900px;
+}
+
+#update {
+    text-align: center;
+    color: #fff;
+    font-size: 37px;
+    line-height: 55px;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    width: 550px;
+    position: absolute;
+    left: 250px;
+    top: -50px;
+
+}
+
+#email {
+    position: absolute;
+    left: 297px;
+    top: 173px;
+    background: #fff;
+    /* max-width: 610px; */
+    width: 550px;
+    height: 85px;
+    border-radius: 10px;
+    padding-left: 65px;
+    font-size: 23px;
+    border: none;
+}
+
+#email-icon {
+
+    position: absolute;
+    left: 319px;
+    top: 201px;
+    z-index: 2;
+    height: 32px;
+}
+
+#subscribe {
+    position: absolute;
+    left: 695px;
+    top: 184px;
+    width: 144px;
+    height: 64px;
+    border-radius: 19px;
+    background-color: #3c65f5;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+}
+
+#subscribe:hover {
+    background-color: #05264e;
+    transform: translateY(-2px);
+    transition: .2s;
+}
+
+        .flex7{
+            .brdr{
+                .tt &:hover{
+                    color: #3c65f5 !important;
+                    cursor: pointer;
+                }
+            }
+        }
+ 

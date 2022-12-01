@@ -9,6 +9,7 @@ import { MyprofileComponent } from './myprofile/myprofile.component';
 import { RegisterComponent } from './register/register.component';
 import { SavedjobsComponent } from './savedjobs/savedjobs.component';
 import { SigninComponent } from './signin/signin.component';
+import {JobgridComponent} from './jobgrid/jobgrid.component'
 import { StepperComponent } from './stepper/stepper.component';
 
 
@@ -16,6 +17,8 @@ import { StepperComponent } from './stepper/stepper.component';
 const routes: Routes = [
   {path:'register',component:RegisterComponent},
   {path:'',redirectTo:'register',pathMatch:'full'},
+  {path:'signin',component:SigninComponent},
+  {path:'jobgrid',component:JobgridComponent},
   {path:'jobibox',component:JobiboxComponent},
   { path: 'register', component: RegisterComponent },
   { path: '', redirectTo: 'register', pathMatch: 'full' },

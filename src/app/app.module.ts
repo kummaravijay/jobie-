@@ -20,8 +20,9 @@ import { SavedjobsComponent } from './savedjobs/savedjobs.component';
 import {MatCardModule} from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms'
 import { HttpClientModule } from '@angular/common/http';
+import { JobgridComponent } from './jobgrid/jobgrid.component';
 import { StepperComponent } from './stepper/stepper.component';
-import {MatStepperModule} from '@angular/material/stepper';;
+import {MatStepperModule} from '@angular/material/stepper';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from "@angular/material/form-field";
 @NgModule({
@@ -30,6 +31,8 @@ import { MatFormFieldModule } from "@angular/material/form-field";
     HeaderComponent,
     RegisterComponent,
     FooterComponent,
+    SigninComponent,
+    JobgridComponent
     JobiboxComponent,
     SigninComponent,
     CandidateprofileComponent,
