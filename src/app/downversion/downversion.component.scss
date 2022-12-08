@@ -1,0 +1,660 @@
+.about {
+    
+    height: 208px;
+    content: "";
+    top: 0px;
+    left: 0;
+
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://jobbox-nextjs.vercel.app/_next/static/media/img-about.0287ca62.png);
+}
+.verc{
+    background-color: black;
+}
+
+.us {
+    font-size: 33px;
+    color: #fff;
+    margin-left: 238px;
+    padding-top: 102px;
+    font-family: Plus Jakarta Sans,sans-serif; font-weight: 700;
+}
+
+.get {
+    margin-top: -6px;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 239px;
+    font-family: Plus Jakarta Sans,sans-serif; font-weight: 700;
+
+}
+
+.house {
+   
+    
+    width: 156px;
+    height: 43px;
+    margin-top: -80px;
+    padding-left: 29px;
+    border: none;
+    color: #66789c;
+    background-color: #fff;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 2px 1px 3px 12px;
+    
+    position: relative;
+    top: -95px;
+    margin-left: 1067px;
+
+
+}
+
+.home {
+    margin-left: 8px;
+}
+
+.greaterthan {
+    margin-left: 8px;
+}
+
+.blog {
+    margin-left: 8px;
+}
+
+.home:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.fa-house:before {
+    margin-left: -22px;
+    color: #66789c;
+}
+
+.fa-house:before:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    background-color: #f2f6fd;
+    width: 69%;
+    margin-left: 194px;
+    margin-top: 80px;
+   
+}
+
+.london {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 115%;
+    margin-left: 23px;
+    padding: 68px 0px 122px;
+}
+
+.north {
+    margin-top: 64px;
+    margin-left: 96px;
+}
+
+.double {
+    margin: 46px 128px;
+}
+
+.joboximg img {
+    margin-top: -45px;
+}
+
+.map {
+    color: #3c65f5;
+}
+
+.contact {
+    margin-left: 92px;
+    margin-top: 67px;
+    font-size: 19px;
+    color: #3c65f5;
+    font-family: Plus Jakarta Sans,sans-serif; 
+}
+
+.inputs h1 {
+    margin-left: 89px;
+    margin-top: -10px;
+    font-size: 31px;
+    font-family: Plus Jakarta Sans,sans-serif; 
+    font-weight:700;
+    color: #05264e;
+}
+
+.inputs p {
+    margin-left: 92px;
+    width: 434px;
+    margin-top: -10px;
+    font-size: 16px;
+    color: #66789c;
+    font-family: Plus Jakarta Sans,sans-serif; 
+}
+
+input {
+    
+    padding-left: 15px;
+   
+    border-radius: 7px;
+    width: 372px;
+    height: 37px;
+    margin: 17px;
+    border: 1px solid #e0e6f7;
+}
+
+.text {
+    grid-template-columns: auto auto;
+    display: grid;
+    margin-left: -13px;
+    margin-top: 38px;
+
+}
+
+#three {
+    margin-right: 594px;
+}
+
+.area {
+   
+    margin-top: 10px;
+}
+
+textarea {
+    width: 797px;
+    height: 182px;
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-top: 17px;
+    font-size: 15px;
+    border: 1px solid #e0e6f7;
+}
+
+.mes {
+    margin-left: 99px;
+    margin-top: 25px;
+}
+
+.mes button {
+    width: 200px;
+    height: 57px;
+    padding-left: 15px;
+    font-size: 16px;
+    background-color: #3c65f5;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    margin-left: -16px;
+}
+
+.mes button:hover {
+    cursor: pointer;
+    background-color: #212529;
+}
+
+#square {
+    width: 17px;
+    margin-left: 35px;
+    margin-top: 24px;
+}
+
+.by {
+    margin-left: -8px;
+    position: relative;
+    top: -13px;
+}
+
+
+.fa-envelope:before {
+    margin-left: -22px;
+}
+
+.png {
+    float: right;
+    margin-top: -637px;
+
+}
+
+.png img {
+
+    
+    margin-right: -20px;
+    margin-top: 32px;
+    width: 295px;
+    height: 434px;
+}
+.inputs{
+    margin-left: -87px;
+}
+
+.meet {
+    text-align: center;
+    margin-top: 113px;
+}
+
+.meet h3 {
+    color: #a0abb8;
+    font-size: 18px;
+    font-family: Plus Jakarta Sans, sans-serif;
+}
+
+.meet h1 {
+    text-align: center;
+    margin-top: -14px;
+    font-size: 37px;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight:700;
+}
+
+.meet p {
+    width: 717px;
+    margin-left: 324px;
+    margin-top: 0px;
+    font-size: 14px;
+    color: #4f5e64;
+    font-family: Plus Jakarta Sans, sans-serif;
+
+}
+
+.teresa {
+    margin-left: 82px;
+    margin-top: 105px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: -10px;
+    margin-right: 359px;
+
+
+
+}
+
+.dev {
+    border: 1px solid #e0e6f7;
+    width: 279px;
+    height: 333px;
+    margin: 13px;
+    padding: 43px;
+
+
+}
+
+.dev:hover {
+    transform: translateY(-4px);
+    transition: .5s;
+    cursor: pointer;
+    border-color: #e0e6f7;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.image {
+    margin-top: -7px;
+    margin-left: 39px;
+    border-radius: 50%;
+}
+
+.end {
+    margin-top: 4px;
+    margin-left: 37px;
+    font-size: 23px;
+}
+
+.front {
+
+    margin-top: -22px;
+    margin-left: 43px;
+    font-size: 14px;
+}
+
+.star {
+    margin-top: -7px;
+    margin-left: 53px;
+}
+
+.uni {
+    margin-left: 42px;
+    margin-top: 9px;
+    color: #a0abb8;
+}
+
+.face {
+    margin-left: 29px;
+    margin-top: 4px;
+}
+
+.face i {
+    border: 1px solid #e0e6f7;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: -1px;
+    padding: 5px;
+    color: #b3b7c1;
+}
+
+.ng {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.ng p {
+    font-size: 20px;
+    color: #66789c;
+}
+
+.iag {
+    background-image: url("https://jobbox-nextjs.vercel.app/assets/imgs/page/homepage1/img-news1.png");
+    height: 260px;
+    width: 344px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.ws {
+    background-color: #b4c0e0;
+    width: 68px;
+    font-size: 17px;
+    padding-left: 14px;
+    padding-top: 9px;
+    height: 33px;
+    margin-top: 11px;
+    margin-left: 5px;
+    border-radius: 6px;
+    color: #3c65f5;
+}
+
+.ws:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.flex8 {
+    display: flex;
+}
+
+.sh {
+    margin-left: 12px;
+    margin-top: 5px;
+    font-size: 17px;
+    color: #4f5e64;
+}
+
+.se {
+    margin-top: -15px;
+    margin-left: 12px;
+    font-size: 15px;
+    color: #66789c;
+}
+
+.round {
+    width: 50px;
+    height: 47px;
+}
+
+.re {
+    margin-left: 235px;
+    margin-top: -39px;
+    color: #66789c;
+}
+
+.tt {
+    color: #05264e;
+    font-size: 19px;
+    margin-top: -6px;
+    margin-left: 7px;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight:700;
+}
+
+.para {
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: -16px;
+    color: #4f5e64;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.brdrr {
+    border: 1px solid lightgrey;
+    width: 366px;
+    height: 524px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+
+.iag1 {
+    background-image: url("https://jobbox-nextjs.vercel.app/assets/imgs/page/homepage1/img-news2.png");
+    height: 260px;
+    width: 344px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.iag2 {
+    background-image: url("https://jobbox-nextjs.vercel.app/assets/imgs/page/homepage1/img-news3.png");
+    height: 260px;
+    width: 344px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.flex9 {
+    display: flex;
+    margin-left: 97px;
+    margin-top: 51px;
+}
+
+.brdrr:hover {
+    transform: translateY(-4px);
+    transition: .5s;
+    cursor: pointer;
+    border-color: #e0e6f7;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.load {
+    margin-top: 45px;
+    margin-left: 713px;
+
+}
+
+.more {
+    width: 167px;
+    background-color: #3c65f5;
+    height: 48px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    margin-left: -127px;
+}
+
+.more:hover {
+    transform: translateY(-4px);
+    transition: .5s;
+    cursor: pointer;
+    background: #05264e;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.happy {
+    margin-top: 54px;
+    text-align: center;
+    font-size: 22px;
+    margin-right: 125px;
+}
+
+.when {
+    margin-left: 335px;
+   
+    width: 671px;
+    
+    
+    font-family: Plus Jakarta Sans, sans-serif;
+    color: #66789c;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+.happy h1{
+    font-family: Plus Jakarta Sans,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #05264e;font-size:36px;
+    margin-left: 89px;
+}
+
+.font-lg {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.random:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -75px;
+  
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid #f4f6f7;
+    
+    margin-left: 15px;
+    width: -3px;
+    height: 25px;
+
+}
+
+.imgs {
+    margin-left: 20px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.omnis {
+    border: 1px solid black;
+    width: 391px;
+    height: 339px;
+    margin-left: 103px;
+    margin-top: 77px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 15px;
+    padding-top: 1px;
+
+}
+
+.omnis:hover {
+    transform: translateY(-4px);
+    transition: .5s;
+    cursor: pointer;
+    border-color: #e0e6f7;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.adair {
+    margin-left: 20px;
+    margin-top: -8px;
+}
+
+.men {
+    margin-top: -10px;
+}
+
+.flex {
+    display: flex;
+    margin: 10px;
+    margin-left: 86px;
+}
+
+.app {
+    border-radius: 60px;
+}
+
+.asset {
+    border-radius: 60px;
+}
+
+.container2 {
+    background-color: #3c65f5;
+    height: 410px;
+    width: 68%;
+    padding-top: 15px;
+    margin-left: 190px;
+    border-radius: 20px;
+}
+
+.boxnews {
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 16px;
+    position: relative;
+    margin: 51px 204px;
+    height: 358px;
+    padding-top: 30px;
+    left: -152px;
+}
+
+#newsletter-right {
+    position: absolute;
+    top: 40px;
+    left: 903px;
+}
+
+#newsletter-left {
+    position: absolute;
+    top: 19px;
+    left: 900px;
+}
+
+#update {
+    text-align: center;
+    color: #fff;
+    font-size: 37px;
+    line-height: 55px;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    width: 556px;
+    position: absolute;
+    left: 280px;
+    top: -20px;
+
+}
+
+
+
+
+.new{
+    text-align:center;    color: #fff;
+            font-size: 37px;
+            line-height: 55px;
+            font-family: Plus Jakarta Sans,sans-serif;
+            font-weight: 700;     width: 438px;
+    margin-left: 292px;
+    position: relative;
+    top: 68px;
+}
+.sub{
+    color: #fff;
+    background-color: #3c65f5;
+    line-height: 26px;
+    padding: 10px 25px;border:none;    font-family: Plus Jakarta Sans,sans-serif;
+    font-weight: 500;    border-radius: 8px;
+    
+    font-size: 14px;
+    }
