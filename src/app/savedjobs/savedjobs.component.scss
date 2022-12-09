@@ -17,18 +17,19 @@
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        margin-right: 193px;
     }
 }
 
 .flex4 {
     border: 1px solid lightgrey;
-    width: 339px;
+    width: 327px;
     margin-top: 24px;
-    padding-left: 16px;
+    padding-left: 12px;
     padding-top: 17px;
-    height: 364px;
+    height: 377px;
     border-radius: 5px;
-    margin-left: 37px;
+    margin-left: 30px;
     background-color: #eff3fc;
 }
 

@@ -9,6 +9,8 @@ import { MyprofileComponent } from './myprofile/myprofile.component';
 import { RegisterComponent } from './register/register.component';
 import { SavedjobsComponent } from './savedjobs/savedjobs.component';
 import { SigninComponent } from './signin/signin.component';
+import { PreviewComponent } from './preview/preview.component';
+
 
 
 const routes: Routes = [
@@ -38,6 +40,9 @@ const routes: Routes = [
       
     ]
 
+  },
+  {
+    path:'preview',component:PreviewComponent
   },
   { path: 'signin',component:SigninComponent }
 ];

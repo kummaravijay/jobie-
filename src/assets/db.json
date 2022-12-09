@@ -48,7 +48,6 @@
       "repassword": "vijay",
       "id": 4
     },
-    
     {
       "fname": "",
       "email": "",
@@ -80,6 +79,14 @@
       "password": "sefsergrdsf",
       "repassword": "sgfrdhtrt",
       "id": 7
+    },
+    {
+      "fname": "gaddammadhukiranreddy",
+      "email": "gaddammadhukiranreddy@gmail.com",
+      "uname": "gaddam",
+      "password": "Kiran@143",
+      "repassword": "Kiran@143",
+      "id": 8
     }
   ]
 }
