@@ -32,7 +32,7 @@ import { MatFormFieldModule } from "@angular/material/form-field";
     RegisterComponent,
     FooterComponent,
     SigninComponent,
-    JobgridComponent
+    JobgridComponent,
     JobiboxComponent,
     SigninComponent,
     CandidateprofileComponent,
